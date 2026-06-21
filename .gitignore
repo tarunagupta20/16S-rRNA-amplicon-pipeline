@@ -1,0 +1,22 @@
+# Raw sequencing data - too large for GitHub
+data/raw/*.fastq
+data/raw/*.fastq.gz
+data/raw/*.fq
+data/raw/*.fq.gz
+
+# QIIME 2 artifacts - large binary files
+*.qza
+*.qzv
+
+# Processed intermediate files
+data/processed/*.fastq
+data/processed/*.fastq.gz
+
+# System files
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Logs
+*.log
